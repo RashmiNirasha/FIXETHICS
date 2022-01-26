@@ -1,5 +1,8 @@
 body {
-    background-color: whitesmoke;
+  position: relative;
+  width: 1440px;
+  height: 890px;
+  background: #7CA3DF;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -7,12 +10,14 @@ body {
   }
   
   .wrapper {
-    margin: 0 auto;
-    width: 65%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+width: 772px;
+height: 534px;
+left: 371px;
+top: 208px;
+background: #424566;
+opacity: 0.75;
+border-radius: 81px;
     
   }
   
@@ -42,15 +47,19 @@ body {
   }
   
   .btn {
+    position: absolute;
+width: 500px;
+height: 56px;
+left: 502px;
+top: 578px;
+background: #FA8B8B;
     display: inline-block;
     padding: 7px 20px;
     font-size: 16px;
     letter-spacing: 1px;
     text-decoration: none;
     border-radius: 5px;
-    color: #bb0000;
     outline: none;
-    border: 1px solid #bb0000;
     transition: .3s;
    
   }
@@ -75,16 +84,31 @@ body {
   }
   
   .login-text {
-    position: relative;
-    width: 100%;
-    color: #ffffff;
-    text-align: center;
+    position: absolute;
+width: 569px;
+height: 150px;
+left: 483px;
+top: 205px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
   }
   
   .login-form {
-    position: relative;
-    width: 100%;
-    color: #666666;
+    position: absolute;
+    width: 772px;
+    height: 534px;
+    left: 371px;
+    top: 208px;
+    
+    background: #424566;
+    opacity: 0.75;
+    border-radius: 81px;
   }
   
   .login-form p a {
@@ -95,14 +119,12 @@ body {
   
   .login-form input {
     display: block;
-    width: 100%;
-    height: 40px;
-    padding: 0 10px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    outline: none;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
+    position: absolute;
+width: 393px;
+height: 43px;
+left: 560px;
+top: 367px;
+background: #FEFEFE;
   }
   
   .login-form input:focus {

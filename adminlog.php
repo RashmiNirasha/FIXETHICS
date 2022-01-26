@@ -48,16 +48,34 @@ if (isset($_POST['but_submit'])) {
             return (true);
         }
     </script>
-    <link rel="stylesheet" href="assets/css/loginad.css" type="text/css">
+    <link rel="stylesheet" href="assets\css\loginad.css" type="text/css">
+    <link rel="stylesheet" href="assets\css\topnavigation.css" type="text/css">
+
 </head>
 
 <body>
+<?php
+        include('loginNav.php');
+        ?>
+<div class="nav" style="width: 100%;">
+                <div class="left">
+                    <img src = "assets\img\logo.png" width="76px" height="57px">
+                    <p style="margin-left: 20px;">Fixetics</p>
+                </div>
+                
+                <div class="right">
+                    <a href="#" id="font">ABOUT</a>
+                    <a href="#" id="font">SERVICES</a>
+                    <a href="#" id="font">CONTACT</a>
+                    <a href="#" id="font">SUPPORT</a>
+                    <a href="#" id="font">LOG OUT </a>
+                </div>
+            </div>
 
     <div class="wrapper">
         <div class="container">
             <div class="col-left">
                 <div class="login-text">
-                    <img src="assets/img/logo.jpg" width="120" height="160">
                     <p>
                         <br />
                         <B>Our Value</B><br /> We are unique And provide more than 100% to customers.<br>Happy to part of you.
@@ -67,7 +85,8 @@ if (isset($_POST['but_submit'])) {
             </div>
             <div class="col-right">
                 <div class="login-form">
-                    <h2>Admin Login</h2><br>
+                    <center>
+                    <h2 >Admin Login</h2><br>
                     <form method="POST" action="" name="myForm" onsubmit="return(validate());">
                         <p>
                             <input type="text" name="username" placeholder="Username" required>
@@ -82,7 +101,7 @@ if (isset($_POST['but_submit'])) {
 
                             <a href="index.php">Are you a customer?</a>
                         </p>
-
+    </center>
 
                     </form>
                 </div>
