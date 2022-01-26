@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="service_style.css">
+    <link rel="stylesheet" href="assets\css\service_style.css">
+    <link rel="stylesheet" href="assets\css\topnavigation.css">
+
     <title>Fixetics</title>
 </head>
 
@@ -14,7 +16,7 @@
 
     <div class="nav" style="width: 100%;">
         <div class="left">
-            <img src="logo.jpg" width="76px" height="57px">
+            <img src="assets\img\logo.jpg" width="76px" height="57px">
             <p style="margin-left: 20px;">Fixetics</p>
         </div>
 
@@ -46,7 +48,7 @@
 
 
     <div class="container">
-        <img src="GettyImages-554996383-5762dcb83df78c98dc42c4df.jpg" alt="" class="image">
+        <img src="assets\img\GettyImages-554996383-5762dcb83df78c98dc42c4df.jpg" alt="" class="image">
 
     
     <div>
@@ -67,7 +69,7 @@
 
 
     <div class="container">
-        <img src="Network-security.jpg" alt=""class="image" >
+        <img src="assets\img\Network-security.jpg" alt=""class="image" >
     </div>
 
     <div>
@@ -84,7 +86,7 @@
 
 
     <div class="container">
-         <img src="keyboard.jpg" alt="" class="image">
+         <img src="assets\img\keyboard.jpg" alt="" class="image">
         </div >
         <div>
             <p class="font1">Keyboard Repairing Services </p>
@@ -100,7 +102,7 @@
         </div>
 
         <div class="container">
-            <img src="data-recovery-500x500.jpg" alt="" class="image">
+            <img src="assets\img\data-recovery-500x500.jpg" alt="" class="image">
         </div>
 
 
@@ -117,7 +119,7 @@
         </div>
 
         <div class="container">
-            <img src="invalid-operating-system-version.png" alt="" class="image">
+            <img src="assets\img\invalid-operating-system-version.png" alt="" class="image">
         </div>
 
 

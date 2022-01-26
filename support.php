@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="assets\css\style_support.css">
+    <link rel="stylesheet" href="assets\css\topnavigation.css">
+
     <title>Support</title>
 </head>
 <body>
@@ -13,7 +15,7 @@
         <!--Navigation bar-->
         <div class="nav" style="width: 100%;">
             <div class="left">
-                <img src = "../images/logo.png" width="76px" height="57px">
+                <img src = "assets\img\logo_sup.png" width="76px" height="57px">
                 <p style="margin-left: 20px;">Fixetics</p>
             </div>
             
@@ -29,7 +31,7 @@
         <!--Body-->
         <div>
             <div class="left_body_support">
-                    <img src="../images/support.png" width="85%">
+                    <img src="assets\img\support_sup.png" width="85%">
               </div>
               
               <div class="right_body_support">
