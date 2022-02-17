@@ -1,6 +1,6 @@
 html{
     
-    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;*/
     font-size: 10px;
     box-sizing: border-box;
 }
@@ -141,7 +141,8 @@ button:hover {
 .sec1{
     position: relative;
     width: 100%;
-    height: 50vh;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +162,7 @@ button:hover {
     margin: 0;
     padding: 0;
     color: #ece1e1;
-    font-size: 3em;
+    font-size: medium;
 }
 
 .sec1 .content p{
@@ -181,5 +182,3 @@ button:hover {
   background-color:	whitesmoke;
   text-shadow: 1px 1px 0 #ebecf0;
 }
-
-

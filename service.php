@@ -9,28 +9,12 @@
     <link rel="stylesheet" href="service_style.css">
     <title>Fixetics</title>
 </head>
+<?php include 'files\navbar.php';?>
 
 <body>
 
-
-    <div class="nav" style="width: 100%;">
-        <div class="left">
-            <img src="logo.jpg" width="76px" height="57px">
-            <p style="margin-left: 20px;">Fixetics</p>
-        </div>
-
-        <div class="right">
-            <a href="#" id="font">ABOUT</a>
-            <a href="#" id="font">SERVICES</a>
-            <a href="#" id="font">CONTACT</a>
-            <a href="#" id="font">SUPPORT</a>
-            <a href="#" id="font">LOG OUT </a>
-        </div>
-    </div>
-
-
     <div class="container">
-        <div class="features" style="width: 100%;">
+        <div class="features" style="width: 100%; ">
 
             <h2>
                 <u> We provide following Services on your Door step</u>
@@ -43,13 +27,9 @@
             </h3>
         </div>
 
-
-
-
-
-        <div style="width: 100%;">
+        <div style="width: 75%; margin-left: 250px;">
             <div style="width: 50%;float: left; ">
-                <img src="GettyImages-554996383-5762dcb83df78c98dc42c4df.jpg" alt="" class="image">
+                <img src="assets\img\GettyImages-554996383-5762dcb83df78c98dc42c4df.jpg" alt="" class="image">
             </div>
 
             <div style="width: 50%;float: right;">
@@ -68,10 +48,10 @@
         </div>
 
 
-        <div style="width: 100%;">
+        <div style="width: 75%; margin-left: 250px;">
             <div style="width: 50%;float: right;">
 
-                <img src="Network-security.jpg" alt="" class="image">
+                <img src="assets\img\Network-security.jpg" alt="" class="image">
             </div>
             <div style="width: 50%;float: left;">
 
@@ -85,12 +65,9 @@
                 </ol>
             </div>
         </div>
-
-
-
-        <div style="width: 100%;">
+        <div style="width: 75%; margin-left: 250px;">
             <div style="width: 50%;float: left; ">
-                <img src="keyboard.jpg" alt="" class="image">
+                <img src="assets\img\keyboard.jpg" alt="" class="image">
             </div>
             <div style="width: 50%;float: right;">
                 <p class="font1">Keyboard Repairing Services </p>
@@ -107,9 +84,9 @@
         </div>
 
 
-        <div style="width: 100%;">
+        <div style="width: 75%; margin-left: 250px;">
             <div style="width: 50%;float: right;">
-                <img src="data-recovery-500x500.jpg" alt="" class="image">
+                <img src="assets\img\data-recovery-500x500.jpg" alt="" class="image">
             </div>
 
 
@@ -125,9 +102,9 @@
                 </ol>
             </div>
         </div>
-        <div style="width: 100%;">
+        <div style="width: 75%; margin-left: 250px;">
             <div style="width: 50%;float: left; ">
-                <img src="invalid-operating-system-version.png" alt="" class="image">
+                <img src="assets\img\invalid-operating-system-version.png" alt="" class="image">
             </div>
 
             <div style="width: 50%;float: right;">
@@ -146,9 +123,8 @@
 
 
     <div class="body">
-
         <div class="left_body_support">
-            <img src="logo.jpg" class="img_right">
+            <img src="assets\img\logo.jpg" class="img_right">
 
         </div>
         <div class="right_body_support">

@@ -55,7 +55,6 @@
 
 }
 
-
 .features {
     padding-left: 8px;
     padding-right: 8px;
@@ -96,14 +95,13 @@ ol {
 
 .container {
     height: 1500px;
+    text-align: center;
 }
-
 
 .left_body_support {
     float: left;
     width: 50%;
 }
-
 .right_body_support {
     background-color: #424566;
     width: 50%;

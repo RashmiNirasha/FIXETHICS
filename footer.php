@@ -129,7 +129,10 @@
                                         <input id="telephone" type="text" name="telephone" placeholder="Phone number">
                                     </div>
                                     <p class="msg">
-                                    <h4>Message<h4>
+                                    <h4 style = "font-size: 15px;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;">Message<h4>
                                             </p>
                                             <div class="con">
                                                 <textarea id="promessage" name="promessage" rows="4"></textarea>
