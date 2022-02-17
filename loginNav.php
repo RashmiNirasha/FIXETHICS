@@ -8,8 +8,8 @@
     <nav class="navigation-bar">
         <img class="logo" src="assets\img\logo.png" width="76px" height="57px">
         <p style="margin-left: 20px;">Fixetics</p>
-        <a href="support.php">Help</a>
-        <a href="#about">Log In</a>  
+        <a href="footer.php">Help</a>
+        <a href="index.php">Log In</a>  
     </nav>
     <div class="bg">
     <div class="center">
@@ -48,7 +48,7 @@
                         <div class="formlabel">New User? <a class="createlink" href="">Create an Account</a></div>
                         <p style="text-align: right;">
                             Haven't registered yet?<b>
-                                <a href="admin/customerForm.php">Sign Up</a></b></br>
+                                <a href="customerlogin.php">Sign Up</a></b></br>
 
                         
                     </form>

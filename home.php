@@ -11,22 +11,7 @@
 </head>
 <body>
     <div class = "page">
-
-        <div class="nav" style="width: 100%;">
-            <div class="left">
-                <img src = "assets\img\logo.png" width="76px" height="57px">
-                <p style="margin-left: 20px;">Fixetics</p>
-            </div>
-            
-            <div class="right">
-                <a href="#" id="font">ABOUT</a>
-                <a href="#" id="font">SERVICES</a>
-                <a href="#" id="font">CONTACT</a>
-                <a href="#" id="font">SUPPORT</a>
-                <a href="#" id="font">LOG OUT </a>
-            </div>
-        </div>
-
+    <?php include 'files\navbar.php';?>
         <div class ="body">
             <div><img src = 'assets\img\bg.jpg' height="700px" style="position:absolute; top:10px; z-index: -1; width: 100%;"></div>
             <div class="bodytext">
