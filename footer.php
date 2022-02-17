@@ -1,8 +1,36 @@
+<?php
+include_once("db\db.php");
+session_start();
+
+if (isset($_POST['submit'])) {
+
+    $issue = $_POST['issue'];
+    $fullname = $_POST['fullname'];
+    $email = $_POST['email'];
+    $telephone = $_POST['telephone'];
+    $promessage = $_POST['promessage'];
+
+    $query = "INSERT INTO issues(issue,fullname,email,telno,promessage) VALUES('$issue','$fullname','$email','$telephone','$promessage')";
+
+    $run = mysqli_query($con, $query) or die("Cannot connect");
+
+    echo "Query recorded successfully";
+}
+?>
+
 <!DOCTYPE html>
 <head>
     <title>Help</title>
     <link rel="stylesheet" type="text/css" href="st1.css" />
-   
+    <script>
+        function validateForm() {
+            var x = document.forms["contactForm"]["email"].value;
+            if (x == "") {
+                alert("Please enter your email address");
+                return false;
+            }
+        }
+    </script>
 
     <style>
         footer {
@@ -171,10 +199,6 @@
         </div>
     </center>
 
-
-    <!--<div class="copyrights" style="position:absolute; z-index: -1;">
-        <p>Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​</p>
-    </div>-->
     <footer>
         <p>Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​<br>
       </footer>
