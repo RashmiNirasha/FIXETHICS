@@ -66,13 +66,13 @@ if (isset($_POST['but_submit'])) {
     <div class="center"style="width : 75%" >
             <div class="bodycontent">
                 <div class="form" >
-                    <form method="GET" action="adminlog.php">
+                    <form method="POST" action="adminlog.php">
             
                         <h2>ADMIN LOGIN</h2>
     
                         <div class="formcontent">
                             <div class="formlabel"> User Name: </div>
-                            <div class="formin"><input class="input_box" type="text" name="username" required></div>
+                            <div class="formin"><input class="input_box" type="text" name="adminusername" required></div>
                         </div>
             
                         <br>
@@ -87,11 +87,8 @@ if (isset($_POST['but_submit'])) {
                         <div class="formremember">
                             <div class="formlabel"><input type="checkbox">Remember &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forgot Password?</div>
                         </div>
-    
-                        <div class="formcontent">
-                            <div class="formin" >
-                                <a href="#"><button class="button" type="Submit">  Sign in </button> </a>
-                            </div>
+                        <input class="button" type="submit" name="but_submit" id="but_submit" value="Sign In" />
+      
     </div>
            
                     </form>
