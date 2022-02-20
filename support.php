@@ -4,32 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="assets\css\style_support.css">
+
     <title>Support</title>
 </head>
 <body>
     <div class = "page">
-
-        <!--Navigation bar-->
-        <div class="nav" style="width: 100%;">
-            <div class="left">
-                <img src = "../images/logo.png" width="76px" height="57px">
-                <p style="margin-left: 20px;">Fixetics</p>
-            </div>
-            
-            <div class="right">
-                <a href="#" class="font">HOME</a>
-                <a href="#" class="font">ABOUT</a>
-                <a href="#" class="font">SERVICES</a>               
-                <a href="#" class="font">SUPPORT</a>
-                <a href="#" class="font">LOG OUT </a>
-            </div>
-        </div>
-
+    <?php include 'files\navbar.php';?>
         <!--Body-->
         <div>
             <div class="left_body_support">
-                    <img src="../images/support.png" width="85%">
+                    <img src="assets\img\support_sup.png" width="85%">
               </div>
               
               <div class="right_body_support">
@@ -58,10 +43,22 @@
             <div style="height: 580px;"></div>
         </div>
 
-        <!--footer -->
-        <div class="copyrights" style="width: 100%;">
-            <p>Copyright ©2022 | All Rights Reserved | Website Designed & Developed by Group 12​</p>
-        </div>
+       
+        
     </div>
+
+     
+   <div class="footer">
+        <p style="position: absolute;
+    background-color: #373844;
+    width: 100%;
+    text-align: center;
+    opacity: 60%;
+    color: white;
+    /* height: 40%; */
+    padding: 2px 10px 0px 2px;
+    font-size: small;
+    z-index: 1;">Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​<br>
+</div>     
 </body>
 </html>

@@ -4,29 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="assets\css\style_home.css">
+    <link rel="stylesheet" href="assets\css\topnavigation.css">
+
     <title>Fixetics</title>
 </head>
 <body>
     <div class = "page">
-
-        <div class="nav" style="width: 100%;">
-            <div class="left">
-                <img src = "../images/logo.png" width="76px" height="57px">
-                <p style="margin-left: 20px;">Fixetics</p>
-            </div>
-            
-            <div class="right">
-                <a href="#" class="font">HOME</a>
-                <a href="#" class="font">ABOUT</a>
-                <a href="#" class="font">SERVICES</a>               
-                <a href="#" class="font">SUPPORT</a>
-                <a href="#" class="font">LOG OUT </a>
-            </div>
-        </div>
-
+    <?php include 'files\navbar.php';?>
         <div class ="body">
-            <div><img src = '../images/bg.jpg' height="700px" style="position:absolute; top:10px; z-index: -1; width: 100%;"></div>
+            <div><img src = 'assets\img\bg.jpg' height="700px" style="position:absolute; top:10px; z-index: -1; width: 100%;"></div>
             <div class="bodytext">
                 <p>Have computer problems? </p>
                 <p>Get Help Right Now</p>
@@ -38,21 +25,21 @@
 
         <div class="features" style="width: 100%;">
             <div class="feature_data">
-                <img src="../images/feature3.png" alt="low price">
+                <img src="assets\img\feature3.png" alt="low price">
                 <h3> Low Prices </h3>
                 <p>At Fixetics, we are dedicated to providing fast <br /> 
                     and reliable computer repair services at a <br /> 
                    affordable price. </p>
             </div>
             <div class="feature_data">
-                <img src="../images/feature1.png">
+                <img src="assets\img\feature1.png">
                 <h3> 24/ 7 Services</h3>
                 <p>We have a 24/7 support approach in place to<br />
                      ensure that our customers can get their <br />
                      issues fixed at any time of day or night.</p>
             </div>
             <div class="feature_data">
-                <img src="../images/feature2.png">
+                <img src="assets\img\feature2.png">
                 <h3>Qualified Techs</h3>
                 <p> Our A+ certified technicians are<br />
                      highly knowledgeable and well trained. We will <br />
@@ -63,7 +50,7 @@
 
         <div class="features" style="background:#FFF8F8; width: 100%;">
             <div style="margin-left: 150px;">
-                <img src="../images/fixcomputer.jpg" width="526px" height="364px">
+                <img src="assets\img\fixcomputer.jpg" width="526px" height="364px">
             </div>
             <div style="color: black; margin-left: 10px;">
                 <h2 style="text-align: left;">
@@ -111,22 +98,22 @@
             <div class="footer_data">
                 <h3>FOLLOW US ON</h3>
                 <p>
-                    <img src="../images/fb.png" width="20px" height="20px"> &nbsp;
+                    <img src="assets\img\fb.png" width="20px" height="20px"> &nbsp;
                     FaceBook
                 </p>
                 <p>
-                    <img src="../images/twitter.png" width="20px" height="20px"> &nbsp;
+                    <img src="assets\img\twitter.png" width="20px" height="20px"> &nbsp;
                     Twitter
                 </p>
                 <p>
-                    <img src="../images/linkedin.png" width="20px" height="20px"> &nbsp;
+                    <img src="assets\img\linkedin.png" width="20px" height="20px"> &nbsp;
                     LinkedIn
                 </p>
             </div>
         </div>
 
         <div class="copyrights" style="position:absolute; z-index: -1; width: 100%;">
-            <p>Copyright ©2022 | All Rights Reserved | Website Designed & Developed by Group 12​</p>
+            <p>Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​</p>
         </div>
         
     </div>
