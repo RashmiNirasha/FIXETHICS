@@ -3,18 +3,18 @@
 
 include_once("db/db.php");
 session_start();
-unset($_SESSION['username']);
+unset($_SESSION['adminusername']);
 if (isset($_POST['but_submit'])) {
-    $uname = $_POST['username'];
+    $uname = $_POST['adminusername'];
     $pswrd = $_POST['password'];
 
-    $sql = "SELECT username, password FROM admin WHERE username='$uname' AND password='$pswrd'";
+    $sql = "SELECT adminusername, password FROM admin WHERE adminusername='$uname' AND password='$pswrd'";
     $result = mysqli_query($con, $sql);
     $row = mysqli_fetch_assoc($result);
 
     if (mysqli_num_rows($result) > 0) {
-        $_SESSION['adminname'] = $uname;
-        header("Location: admin/adminDashboard.php");
+        $_SESSION['adminusername'] = $uname;
+        header("Location: adminDashboard.php");
         exit();
     } else {
         echo '<script> window.alert("Incorrect Username or password");</script>';
@@ -44,57 +44,68 @@ if (isset($_POST['but_submit'])) {
                 return false;
             }
 
-
             return (true);
         }
     </script>
-    <link rel="stylesheet" href="assets\css\loginad.css" type="text/css">
-    <link rel="stylesheet" href="assets\css\topnavigation.css" type="text/css">
+<link rel="stylesheet" href="assets\css\test.css">
+<link rel="stylesheet" href="assets\css\background.css">
+<link rel="stylesheet" href="assets\css\form.css">
+<link rel="stylesheet" href="assets\css\style_home.css">
+
 
 </head>
 
 <body>
-<?php include('loginNav.php');?>
+<nav class="navigation-bar">
+        <img class="logo" src="assets\img\logo.png" width="76px" height="57px">
+        <p style="margin-left: 20px;">Fixetics</p>
+        <a href="footer.php">Help</a>
+        <a href="index.php">Log In</a>  
+    </nav>
 
-    <div class="wrapper">
-        <div class="container">
-            <div class="col-left">
-                <div class="login-text">
-                    <p>
-                        <br />
-                        <B>Our Value</B><br /> We are unique And provide more than 100% to customers.<br>Happy to part of you.
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-right">
-                <div class="login-form">
-                    <center>
-                    <h2 >Admin Login</h2><br>
-                    <form method="POST" action="" name="myForm" onsubmit="return(validate());">
-                        <p>
-                            <input type="text" name="username" placeholder="Username" required>
-                        </p>
-                        <p>
-                            <input type="password" name="password" placeholder="Password" required>
-                        </p>
-                        <p>
-                            <input class="btn" type="submit" value="Sign In" id="but_submit" name="but_submit" />
-                        </p>
-                        <p style="text-align: right;">
-
-                            <a href="index.php">Are you a customer?</a>
-                        </p>
-    </center>
+    <div class="bg">
+    <div class="center"style="width : 75%" >
+            <div class="bodycontent">
+                <div class="form" >
+                    <form method="GET" action="">
+            
+                        <h2>ADMIN LOGIN</h2>
+    
+                        <div class="formcontent">
+                            <div class="formlabel"> User Name: </div>
+                            <div class="formin"><input class="input_box" type="text" name="username" required></div>
+                        </div>
+            
+                        <br>
+    
+                        <div class="formcontent">
+                            <div class="formlabel"> Password: </div>
+                            <div class="formin"><input class="input_box" type="password" name="password" required></div>
+                        </div>
+            
+                        <br>
+    
+                        <div class="formremember">
+                            <div class="formlabel"><input type="checkbox">Remember &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forgot Password?</div>
+                        </div>
+    
+                        <div class="formcontent">
+                            <div class="formin" >
+                                <a href="#"><button class="button" type="Submit">  Sign in </button> </a>
+                            </div>
+    </div>
+           
                     </form>
-                    <div class="copyrights" style="position:absolute; z-index: -1; width: 100%;">
+                    <div class="formlabel" style="float: right;"> <a class="createlink" href="index.php">Are you a customer?</a></div>
+                  
+                </div>
+            </div>  
+        </div>
+    </div>
+                   
+    <div class="copyrights" style="position:absolute; z-index: -1; width: 100%;">
                 <p>Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​</p>
             </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 </body>
-
+ 
 </html>

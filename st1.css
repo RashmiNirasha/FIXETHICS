@@ -1,6 +1,6 @@
 html{
     
-    /*font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;*/
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
     box-sizing: border-box;
 }
@@ -162,14 +162,14 @@ button:hover {
     margin: 0;
     padding: 0;
     color: #ece1e1;
-    font-size: medium;
+    
 }
 
 .sec1 .content p{
     
     text-align:"center"; 
     color: #e7e6e6;
-    font-size: 2.2em;
+    
 }
 
 .con{

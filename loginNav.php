@@ -45,14 +45,12 @@
     
                         <br>
     
-                        <div class="formlabel">New User? <a class="createlink" href="">Create an Account</a></div>
-                        <p style="text-align: right;">
-                            Haven't registered yet?<b>
-                                <a href="customerlogin.php">Sign Up</a></b></br>
-
-                        
+                        <div class="formlabel">New User? <a class="createlink" href="customerlogin.php">Create an Account</a></div>
+                    
                     </form>
-                    <a href="adminlog.php" style="float: right;"><b>Log in as admin</b></a>
+                    
+                    <div class="formlabel" style="float: right;"><a class="createlink" href="adminlog.php">Log in As Admin</a></div>
+
                 </div>
             </div>  
         </div>

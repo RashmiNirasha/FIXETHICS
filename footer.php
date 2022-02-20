@@ -1,27 +1,10 @@
-<?php
-include_once("db\db.php");
-session_start();
-
-if (isset($_POST['submit'])) {
-
-    $issue = $_POST['issue'];
-    $fullname = $_POST['fullname'];
-    $email = $_POST['email'];
-    $telephone = $_POST['telephone'];
-    $promessage = $_POST['promessage'];
-
-    $query = "INSERT INTO issues(issue,fullname,email,telno,promessage) VALUES('$issue','$fullname','$email','$telephone','$promessage')";
-
-    $run = mysqli_query($con, $query) or die("Cannot connect");
-
-    echo "Query recorded successfully";
-}
-?>
 
 <!DOCTYPE html>
 <head>
     <title>Help</title>
     <link rel="stylesheet" type="text/css" href="st1.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\footer.css" />
+
     <script>
         function validateForm() {
             var x = document.forms["contactForm"]["email"].value;
@@ -32,20 +15,6 @@ if (isset($_POST['submit'])) {
         }
     </script>
 
-    <style>
-        footer {
-    text-align: center;
-    background-color: #373844;
-    opacity: 60%;
-    font-size: small;
-    color: white;
-    padding: 2px 10px 0px 2px;
-    width: 100%;
-    height: 40px;
-    position:absolute;
-    z-index: 1;
-  }
-    </style>
 
 </head>
 <body>
@@ -55,7 +24,7 @@ if (isset($_POST['submit'])) {
         <div class="text">
             <section class="sec1">
                 <div class="content">
-                    <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspContact Us</h2>
+                    <h2>Contact Us</h2>
                     <p>You are about to receive the best customer care out there</p>
                 </div>
             </section>
@@ -141,7 +110,7 @@ if (isset($_POST['submit'])) {
                                 <p>Please get in touch with us using one of the options below.You will receive a response within 24 hrs by email</p>
                             </div>
                             <center>
-                                <form name="contactForm" action="help.php" onsubmit="return validateForm()" method="post">
+                                <form name="contactForm" action="files\help.php" onsubmit="return validateForm()" method="post">
                                     <h1>Contact Us</h1><br>
                                     <div>
                                         <select id="issue" name="issue">
