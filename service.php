@@ -123,11 +123,11 @@
 
 
     <div class="body">
-        <div class="left_body_support">
+        <div class="left_body_service">
             <img src="assets\img\logo.jpg" class="img_right">
 
         </div>
-        <div class="right_body_support">
+        <div class="right_body_service">
             <h1>Request For Service Repair</h1>
             <hr />
             <div class="form_left">
