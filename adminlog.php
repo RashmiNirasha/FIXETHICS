@@ -1,6 +1,5 @@
 <?php
 
-
 include_once("db/db.php");
 session_start();
 unset($_SESSION['adminusername']);
@@ -67,7 +66,7 @@ if (isset($_POST['but_submit'])) {
     <div class="center"style="width : 75%" >
             <div class="bodycontent">
                 <div class="form" >
-                    <form method="GET" action="">
+                    <form method="GET" action="adminlog.php">
             
                         <h2>ADMIN LOGIN</h2>
     

@@ -13,7 +13,7 @@
 
         if (mysqli_num_rows($result) > 0) {
             $_SESSION['username'] = $uname;
-            header("Location: customer/customerDashboard.php");
+            header("Location: home.php");
             exit();
         } else {
             echo '<script> window.alert("Incorrect Username or password");</script>';

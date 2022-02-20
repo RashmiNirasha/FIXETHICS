@@ -15,7 +15,7 @@
     <div class="center">
             <div class="bodycontent">
                 <div class="form" >
-                    <form method="GET" action="">
+                    <form method="GET" action="testing.php">
             
                         <h2>LOGIN</h2>
     
@@ -39,7 +39,7 @@
     
                         <div class="formcontent">
                             <div class="formin" >
-                                <a href="#"><button class="button" type="Submit">  Sign in </button> </a>
+                              <button class="button" type="Submit">  Sign in </button> </a>
                             </div>
                         </div>
     
