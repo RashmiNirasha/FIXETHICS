@@ -1,0 +1,112 @@
+
+/*navigation bar*/
+.nav{
+    height: 75px;
+    opacity: 75%;
+    background-color: #424566;
+    display: flex;
+    flex-direction: row;
+    z-index:1;
+    padding: 7px;
+}
+
+.left{
+    flex:0.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    color: azure;
+    
+}
+
+.right{
+    flex:0.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+/*style for links on navigation bar*/
+a.font{
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+
+a.font:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.font:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+/*body section 1*/
+.body1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    height:fit-content;  
+    background-color: #424566; 
+    padding: 7px; 
+}
+
+.right_body{
+    width: 50%;
+    float: right; 
+    border-right:solid #AB7878; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left_body{
+    width: 50%;
+    float: left;
+}
+
+/*body part 02*/
+.body2{
+    background-color: #AB7878;  
+    padding: 20px 20px 20px 20px;
+    margin: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*review*/
+.review{
+    background-color: #424566;  
+    padding: 7px; 
+    width: 100%; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*footer*/
+.copyrights{
+    height: 25px;
+    opacity: 60%;
+    background-color: #373844;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    color: white;
+    padding: 7px;
+}
