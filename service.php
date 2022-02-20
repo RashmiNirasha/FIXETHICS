@@ -123,11 +123,12 @@
 
 
     <div class="body">
-        <div class="left_body_support">
-            <img src="assets\img\logo.jpg" class="img_right">
-
+        <div class="left_body_service">
+            <img src="assets\img\logoname (1).jpg" class="img_right">
+            <h1 style="color: white; font-weight: 400; text-align:center;  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        ">  Services on your Door step</h1>
         </div>
-        <div class="right_body_support">
+        <div class="right_body_service">
             <h1>Request For Service Repair</h1>
             <hr />
             <div class="form_left">
