@@ -74,39 +74,36 @@
                 <div class="swiper-slide">
                     <div class="flex">
                         <div class="comments">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Non, placeat quisquam? Animi sunt, dignissimos est sit reiciendis iste ipsa error?
+                        Very happy I took my MacBook to these people. They were professional and honest and did a great job. I definitely would go back but I hope I never have to
                         </div>
                         <div class="profile">
                             <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-                            <a href="#">John V. Bellanmy</a>
-                            <span>Founder & CEO</span>
+                            <a href="#">Kangara Perera</a>
+                            <span>12.02.2022</span>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="flex">
                         <div class="comments">
-                            Non, placeat quisquam? Animi sunt, dignissimos est sit reiciendis iste ipsa error?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Fixetics did such a great job fixing my laptop with water damage for a great price. Anywhere else would have scammed me- as a college student, I really appreciate it. Thanks guys!
                          </div>
                         <div class="profile">
                             <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-                            <a href="#">John V. Bellanmy</a>
-                            <span>Founder & CEO</span>
+                            <a href="#">Sara Sanmugam</a>
+                            <span>10.01.2022</span>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="flex">
                         <div class="comments">
-                            Animi sunt, ipsa error? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Non, placeat quisquam? dignissimos est sit reiciendis iste 
+                        When I first started getting familiar with computers I did a lot of messy things to my computer. I looked around for a business that could help me fix the errors I created. I decided on Fixetics. And was so happy with my choice.The first time using Fixetics was a wonderful experience as well as affordable.They helped me all the way through the repair, it took them two days of continuous work but he did it without complaint. I have gone back since the first time which was in 2010. Thank you Fixetics!
                         </div>
                         <div class="profile">
                             <img src="https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
-                            <a href="#">John V. Bellanmy</a>
-                            <span>Founder & CEO</span>
+                            <a href="#">Sangeerthana Saitharshan</a>
+                            <span>20.12.2021</span>
                         </div>
                     </div>
                 </div>

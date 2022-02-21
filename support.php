@@ -49,16 +49,9 @@
 
      
    <div class="footer">
-        <p style="position: absolute;
-    background-color: #373844;
-    width: 100%;
-    text-align: center;
-    opacity: 60%;
-    color: white;
-    /* height: 40%; */
-    padding: 2px 10px 0px 2px;
-    font-size: small;
-    z-index: 1;">Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​<br>
+        <p style="position: absolute;background-color: #373844;width: 100%; text-align: center;opacity: 60%;color: white;
+        /* height: 40%; */padding: 2px 10px 0px 2px;font-size: small;z-index: 1;">
+    Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​<br>
 </div>     
 </body>
 </html>
