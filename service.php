@@ -132,7 +132,7 @@
             <h1>Request For Service Repair</h1>
             <hr />
             <div class="form_left">
-                <p>Full Name</p>
+                <p>User ID</p>
                 <p>E-Mail</p>
                 <p>Phone</p>
                 <p>Service</p>
@@ -141,10 +141,10 @@
             </div>
             <div class="form_right">
                 <form method="">
-                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter ID">
                     <input type="email" style="margin: 10px 10px 10px 10px;" placeholder="Enter Email Address">
                     <input type="text" placeholder="Enter Phone Number">
-                    <input type="text" placeholder="Enter Phone Number">
+                    <input type="text" placeholder="Enter Service">
                     <textarea id="msg" name="msg" rows="4" cols="30"> Enter your message here.</textarea>
                     <br /><br />
                     <button class="form_btn">Submit</button>
