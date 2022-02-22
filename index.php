@@ -7,7 +7,7 @@
         $uname = $_POST['username'];
         $pswrd = $_POST['password'];
 
-        $sql = "SELECT username,password FROM user_login_table WHERE username='$uname' AND password='$pswrd'";
+        $sql = "SELECT `username`,`password` FROM `user_details`  WHERE username='$uname' AND password='$pswrd'";
         $result = mysqli_query($con, $sql);
 
 
