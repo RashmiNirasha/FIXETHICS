@@ -1,13 +1,19 @@
 
-<?php include 'files\navbar.php';?>
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets\css\cuslog.css">
+<link rel="stylesheet" href="assets\css\test.css">
+
 </head>
-<body>
+<body style="margin: auto;">
+<nav class="navigation-bar">
+        <img class="logo" src="assets\img\logo.png" width="76px" height="57px">
+        <p style="margin-left: 20px;">Fixetics</p>
+        <a href="footer.php">Help</a>
+        <a href="index.php">Log In</a>  
+    </nav>
 <form action="files\insert.php" method="post">
   <div class="container">
     <h1>Register</h1>

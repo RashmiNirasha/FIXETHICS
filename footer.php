@@ -4,6 +4,8 @@
     <title>Help</title>
     <link rel="stylesheet" type="text/css" href="st1.css" />
     <link rel="stylesheet" type="text/css" href="assets\css\footer.css" />
+    <link rel="stylesheet" href="assets\css\test.css">
+    <link rel="stylesheet" href="assets\css\background.css">
 
     <script>
         function validateForm() {
@@ -14,18 +16,26 @@
             }
         }
     </script>
-
-
 </head>
 <body>
-<?php include 'files\navbar.php';?>
+<nav class="navigation-bar">
+        <img class="logo" src="assets\img\logo.png" width="76px" height="57px">
+        <p style="margin-left: 20px;">Fixetics</p>
+        <a href="footer.php">Help</a>
+        <a href="index.php">Log In</a>  
+    </nav>
 
     <div class="section1">
         <div class="text">
             <section class="sec1">
                 <div class="content">
-                    <h2>Contact Us</h2>
-                    <p>You are about to receive the best customer care out there</p>
+                    <h1 style="
+    font-size: 45px;
+    color: aliceblue;
+">Contact Us</h1>
+                    <p style="
+    font-size: 25px;
+">You are about to receive the best customer care out there</p>
                 </div>
             </section>
 
@@ -38,7 +48,7 @@
                                     <div class="accordion-item" id="q1">
                                         <a class="accordion-link" href="#q1">
                                             Can I change my personal details
-                                            <img src=assets/img/ico/click.png width="30" height="25">
+                                            <img src=assets\img\click.png  width="30" height="25">
                                         </a>
                                         <div class="answer">
                                             <p>Yes you can.Go to customer dashboard, settings edit to change personal details.</p>
@@ -48,7 +58,7 @@
                                     <div class="accordion-item" id="q2">
                                         <a class="accordion-link" href="#q2">
                                             How do I delete my account?
-                                            <img src=assets/img/ico/click.png width="30" height="25">
+                                            <img src=assets\img\click.png width="30" height="25">
                                         </a>
                                         <div class="answer">
                                             <p>In order to delete your account, simply contact us,
@@ -60,7 +70,7 @@
                                     <div class="accordion-item" id="q3">
                                         <a class="accordion-link" href="#q3">
                                             How do i contact a high level manager?
-                                            <img src=assets/img/ico/click.png width="30" height="25">
+                                            <img src=assets\img\click.png width="30" height="25">
                                         </a>
                                         <div class="answer">
                                             <p>It is possible to be connected with their personal Emails.<br> When you add the Email we will keep in touch with you</p>
@@ -70,7 +80,7 @@
                                     <div class="accordion-item" id="q4">
                                         <a class="accordion-link" href="#q4">
                                             What do I do if my order is damaged?
-                                            <img src=assets/img/ico/click.png width="30" height="25">
+                                            <img src=assets\img\click.png width="30" height="25">
                                         </a>
                                         <div class="answer">
                                             <p>We are so sorry to hear that your order arrived in less than pristine condition!
@@ -82,7 +92,7 @@
                                     <div class="accordion-item" id="q5">
                                         <a class="accordion-link" href="#q5">
                                             How long does it take for delivery
-                                            <img src=assets/img/ico/click.png width="30" height="25">
+                                            <img src=assets\img\click.png width="30" height="25">
                                         </a>
                                         <div class="answer">
                                             <p>Your goods will be delivered within 3-5 working days.</p>
@@ -91,7 +101,7 @@
                                     <div class="accordion-item" id="q6">
                                         <a class="accordion-link" href="#q6">
                                             How do I get to know about special offers?
-                                            <img src=assets/img/ico/click.png width="30" height="25">
+                                            <img src=assets\img\click.png width="30" height="25">
                                         </a>
 
                                         <div class="answer">
