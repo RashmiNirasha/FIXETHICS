@@ -17,7 +17,7 @@
             <div class="bodytext">
                 <p>Have computer problems? </p>
                 <p>Get Help Right Now</p>
-                <button class="bodybutton"><a href="support.php" style="text-decoration:none; color:white;"> Get In Touch </a></button>
+                <button class="bodybutton">Get In Touch</button>
             </div>    
         </div>
 
@@ -61,7 +61,7 @@
                     corporate operations. This is where Fixetics comes in; we find, debug, and fix defects and difficulties in malfunctioning computers. 
                      Our services include all aspects of hardware, software, and network/Internet concerns. 
                 </p>
-                <button class="bodybutton" style="padding:5px 60px 5px 60px;"><a href="service.php" style="text-decoration:none; color:white;">View Services </a></button>
+                <button class="bodybutton" style="padding:5px 60px 5px 60px;">View Services</button>
             </div> 
            
         </div>
@@ -80,9 +80,9 @@
 
             <div class="footer_data">
                 <h3>COMPANY</h3>
-                <a href="about.php"><p>About  Us</p></a>
-                <a href="service.php"><p> view services </p></a>
-                <a href="support.php"> <p> Support</p></a>   
+                <a href="#"><p>About  Us</p></a>
+                <a href="#"><p> Contact Us</p></a>
+                <a href="#"> <p> Support</p></a>   
             </div>
 
             <div class="footer_data">
