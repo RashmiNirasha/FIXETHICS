@@ -159,19 +159,6 @@ button{
     color: white;
 }
 /* from user */
-button {
-    background-color: #fa8989;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    opacity: 0.9;
-}
-
-button:hover {
-    opacity: 1;
-}
 
 a.sub {
     font-size: 20px;
@@ -213,7 +200,7 @@ h1 {
 }
 
 td {
-    background-color: #E4F5D4;
+    background-color: #b7c5f9;
     border: 1px solid black;
 }
 

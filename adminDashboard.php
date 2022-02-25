@@ -22,7 +22,7 @@ $con->close();
     <style>
         .bg {
     /* The image used */
-    background-image: url("pexels-johannes-plenio-1103970.jpg");
+    background-image: url("adminBG.jpg");
   
     /* Full height */
     height: 100%; 
