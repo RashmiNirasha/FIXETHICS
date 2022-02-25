@@ -9,7 +9,7 @@
 
     <title>Fixetics</title>
 </head>
-<body>
+<body style="margin: auto;">
     <div class = "page">
     <?php include 'files\navbar.php';?>
         <div class ="body">

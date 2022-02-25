@@ -24,7 +24,7 @@ if (mysqli_num_rows($result) == 1) {
     <script src="js/user.js"></script>
 </head>
 
-<body>
+<body style="margin: auto;">
     <form action="updateUser.php" method="post">
         <div class="container">
             <h1>My Profile</h1>

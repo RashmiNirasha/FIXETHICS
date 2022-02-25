@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,25 +16,9 @@
         }
     </script>
 </head>
-<body>
+<body style="margin: auto;">
     <div class = "page">
-
-        <!--Navigation bar-->
-        <div class="nav" style="width: 100%;">
-            <div class="left">
-                <img src = "assets\img\logo.png" width="76px" height="57px">
-                <p style="margin-left: 20px;">Fixetics</p>
-            </div>
-            
-            <div class="right">
-                <a href="#" class="font">HOME</a>
-                <a href="#" class="font">ABOUT</a>
-                <a href="#" class="font">SERVICES</a>               
-                <a href="#" class="font">SUPPORT</a>
-                <a href="#" class="font">LOG OUT </a>
-            </div>
-        </div>
-
+    <?php include 'files\navbar.php';?>
         <!--Body-->
         <div>
             <div class="left_body_support">

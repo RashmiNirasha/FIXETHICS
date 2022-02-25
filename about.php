@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="margin: auto;">
 <?php include 'files\navbar.php';?>
         <!--body-->
         <div class="body1">

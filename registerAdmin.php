@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="assets/css/cuslog.css">
 </head>
 
-<body>
+<body style="margin: auto;">
     <form action="registerAdmin.php" method="post">
         <div class="container">
             <h1>Register an ADMIN</h1>

@@ -51,8 +51,6 @@ if (isset($_POST['but_submit'])) {
     <link rel="stylesheet" href="assets\css\background.css">
     <link rel="stylesheet" href="assets\css\form.css">
     <link rel="stylesheet" href="assets\css\style_home.css">
-
-
 </head>
 
 <body>
