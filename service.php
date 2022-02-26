@@ -14,7 +14,7 @@
 <body style="margin: auto;">
 
     <div class="container">
-        <div class="features" style="width: 100%; ">
+        <div class="features">
 
             <h2>
                 <u> We provide following Services on your Door step</u>
@@ -27,14 +27,14 @@
             </h3>
         </div>
 
-        <div style="width: 75%; margin-left: 250px;">
-            <div style="width: 50%;float: left; ">
+        <div style=" display: inline-block; width: 100%; border: black 2px solid;">
+            <div style="width: 50%;float: right; ">
                 <img src="assets\img\GettyImages-554996383-5762dcb83df78c98dc42c4df.jpg" alt="" class="image">
             </div>
 
-            <div style="width: 50%;float: right;">
+            <div style="width: 50%;float: left;">
                 <p class="font1">Computer Repairing Services </p>
-                <ol type="disc">
+                <ol style="list-style-type:circle; font-size: large;  margin-left: auto; margin-right: auto;">
                     <li>We are working with Windows Xp,Windows 7,Windows 8.1,<br>Windows 10</li>
                     <li> Operating System Updates</li>
                     <li> Physical inspection</li>
@@ -42,22 +42,20 @@
                     <li> Check all fans and heat-generating sources</li>
                     <li> Check everything that loads at start</li>
                     <li> Hardware /Software Troubleshooting and Installs</li>
-
                 </ol>
             </div>
         </div>
+         <br /><br />
 
-
-        <div style="width: 75%; margin-left: 250px;">
-            <div style="width: 50%;float: right;">
-
+        <div style=" display: inline-block; width: 100%; border: black 2px solid;">
+            <div style="width: 50%;float: left; ">
                 <img src="assets\img\Network-security.jpg" alt="" class="image">
             </div>
-            <div style="width: 50%;float: left;">
 
-                <p class="font1">Network Security Services </p>
-                <ol type="disc">
-                    <li>Remove all viruses, spyware and rootkits. …</li>
+            <div style="width: 50%;float: right;">
+                <p class="font1">Computer Repairing Services </p>
+                <ol style="list-style-type:circle; font-size: large;  margin-left: auto; margin-right: auto;">
+                <li>Remove all viruses, spyware and rootkits. …</li>
                     <li>Repair any operating system issues caused by the virus </li>
                     <li> Perform critical operating system updates</li>
                     <li> PC tune-up</li>
@@ -65,13 +63,16 @@
                 </ol>
             </div>
         </div>
-        <div style="width: 75%; margin-left: 250px;">
-            <div style="width: 50%;float: left; ">
+         <br /><br />
+
+        <div style=" display: inline-block; width: 100%; border: black 2px solid;">
+            <div style="width: 50%;float: right; ">
                 <img src="assets\img\keyboard.jpg" alt="" class="image">
             </div>
-            <div style="width: 50%;float: right;">
-                <p class="font1">Keyboard Repairing Services </p>
-                <ol type="disc">
+
+            <div style="width: 50%;float: left;">
+                <p class="font1">Computer Repairing Services </p>
+                <ol style="list-style-type:circle; font-size: large;  margin-left: auto; margin-right: auto;">
                     <li> Dell Laptop Keyboard repair</li>
                     <li>HP Laptop Keyboard repair </li>
                     <li>Lenovo Laptop Keyboard repair</li>
@@ -82,17 +83,16 @@
                 </ol>
             </div>
         </div>
+         <br /><br />
 
-
-        <div style="width: 75%; margin-left: 250px;">
-            <div style="width: 50%;float: right;">
+        <div style=" display: inline-block; width: 100%; border: black 2px solid;">
+            <div style="width: 50%;float: left; ">
                 <img src="assets\img\data-recovery-500x500.jpg" alt="" class="image">
             </div>
 
-
-            <div style="width: 50%;float: left; ">
-                <p class="font1">Data Recovery Services </p>
-                <ol type="disc">
+            <div style="width: 50%;float: right;">
+                <p class="font1">Computer Repairing Services </p>
+                <ol style="list-style-type:circle; font-size: large;  margin-left: auto; margin-right: auto;">
                     <li> Deleted Disks or Partitions</li>
                     <li> Formatted Disks or Partitions </li>
                     <li> Corrupted Partitions</li>
@@ -102,16 +102,17 @@
                 </ol>
             </div>
         </div>
-        <div style="width: 75%; margin-left: 250px;">
+         <br /><br />
+
+        <div style=" display: inline-block; width: 100%; border: black 2px solid;">
             <div style="width: 50%;float: left; ">
                 <img src="assets\img\invalid-operating-system-version.png" alt="" class="image">
             </div>
 
             <div style="width: 50%;float: right;">
-
-                <p class="font1">Operating Systems Installation </p>
-                <ol type="disc">
-                    <li> Software Upgrades / Installation </li>
+                <p class="font1">Computer Repairing Services </p>
+                <ol style="list-style-type:circle; font-size: large;  margin-left: auto; margin-right: auto;">
+                <li> Software Upgrades / Installation </li>
                     <li>Operating System Updates </li>
                     <li> Anti-Virus Installation / Removal</li>
                     <li> Motherboard Replacement</li>
@@ -119,7 +120,8 @@
                 </ol>
             </div>
         </div>
-    </div>
+         <br /><br />
+
 
 
     <div class="body">
@@ -135,28 +137,26 @@
                 <p>E-Mail</p>
                 <p>Phone</p>
                 <p>Service</p>
-                <p>Briefly describe
-                    your requirement</p>
+                <p>Briefly describe your requirement</p>
             </div>
             <div class="form_right">
-                <form method="">
-                    <input type="text" placeholder="Enter ID">
-                    <input type="email" style="margin: 10px 10px 10px 10px;" placeholder="Enter Email Address">
-                    <input type="text" placeholder="Enter Phone Number">
-                    <input type="text" placeholder="Enter Service">
-                    <textarea id="msg" name="msg" rows="4" cols="30"> Enter your message here.</textarea>
+                <form name="serviceForm" action="files\service_insert.php" onsubmit="return validateForm()" method="post">
+                    <input type="text" placeholder="Enter ID" name="user">
+                    <input type="email" style="margin: 10px 10px 10px 10px;" placeholder="Enter Email Address" name="email">
+                    <input type="text" placeholder="Enter Phone Number" name="phone">
+                    <input type="text" placeholder="Enter Service" name="service">
+                    <textarea id="msg" name="msg" rows="4" cols="30" name="msg"> Enter your message here.</textarea>
                     <br /><br />
                     <button class="form_btn">Submit</button>
                 </form>
             </div>
 
         </div>
-        <div style="height: 580px;"></div>
-    </div>
     </div>
 
 
-    <div class="copyrights" style="position:absolute; z-index: -1; width: 100%;">
+
+    <div class="copyrights" style="position:absolute; width: 100%;">
         <p>Copyright ©2022 | All Rights Reserved | Website Design & Developed by Group 12​</p>
     </div>
 

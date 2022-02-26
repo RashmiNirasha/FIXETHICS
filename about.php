@@ -8,10 +8,7 @@
     <title>About Us</title>
     <link rel="stylesheet" href="assets\css\about.css">
     
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="margin: auto;">

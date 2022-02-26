@@ -1,8 +1,9 @@
 <?php
 
 include_once("db/db.php");
-session_start();
-unset($_SESSION['adminusername']);
+session_start(); //creates a session
+// store information (in variables) to be used across multiple pages.
+unset($_SESSION['adminusername']); //reset
 if (isset($_POST['but_submit'])) {
     $uname = $_POST['adminusername'];
     $pswrd = $_POST['password'];
@@ -11,7 +12,8 @@ if (isset($_POST['but_submit'])) {
     $result = mysqli_query($con, $sql);
 
     if (mysqli_num_rows($result) == 1) {
-        $row = mysqli_fetch_assoc($result);
+        $row = mysqli_fetch_assoc($result); 
+        // fetches a result row as an associative array.
         $_SESSION['adminID'] = $row['adminID'];
         $_SESSION['role'] = "admin";
         header("Location: adminDashboard.php");

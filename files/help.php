@@ -29,12 +29,10 @@
         // here our table name is help
         $sql = "INSERT INTO help  VALUES ('$$issue', 
             '$fullname','$email','$telno','$msg')";
-          
+          //   mysqli_query() function performs a query against a database.
         if(mysqli_query($conn, $sql)){
             echo "<h3>message sent successfully</h3>"; 
   
-            //echo nl2br("\n$first_name\n $last_name\n "
-                //. "$gender\n $address\n $email");
         } else{
             echo "ERROR: not succesfull $sql. " 
                 . mysqli_error($conn);

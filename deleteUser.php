@@ -1,14 +1,16 @@
 <?php
 session_start();
 
-if ($_SERVER["REQUEST_METHOD"] != "POST") {
+// $_SERVER — Server and execution environment information
+if ($_SERVER["REQUEST_METHOD"] != "POST") {  // collect value of input field
+    
+    // 'REQUEST_METHOD'Which request method was used to access the page; e.g. 'GET', 'HEAD', 'POST', 'PUT'.
     header("location: adminDashboard.php");
 }
 
 include_once 'db/db.php';
 
 $AID = $_SESSION["adminID"];
-
 
 $sql .= "delete from admin where adminID = $AID;";
 

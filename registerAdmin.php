@@ -1,29 +1,4 @@
-<?php include 'files/navbar.php';
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    include 'db/db.php';
-
-    $name = $_POST['fName'];
-    $username = $_POST['username'];
-    $tel = $_POST['tel'];
-    $email = $_POST['email'];
-    $address = $_POST['address'];
-    $password = $_POST['password'];
-
-    $sql = "INSERT INTO `admin`  VALUES ('','$name', 
-    '$username','$tel','$email','$address','$password')";
-
-    if (mysqli_query($con, $sql)) {
-        echo "<h3>Congragulations. your account was created.</h3>";
-    } else {
-        echo "ERROR: not succesfull $sql. "
-            . mysqli_error($con);
-    }
-
-    // Close connection
-    mysqli_close($con);
-}
-?>
-
+<?php include 'files/navbar.php';?>
 <!DOCTYPE html>
 <html>
 
@@ -33,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body style="margin: auto;">
-    <form action="registerAdmin.php" method="post">
+    <form action="files\admininsert.php" method="post">
         <div class="container">
             <h1>Register an ADMIN</h1>
             <p>Please fill in this form to create an account.</p>

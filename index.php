@@ -8,9 +8,10 @@
         $pswrd = $_POST['password'];
 
         $sql = "SELECT `username`,`password` FROM `user_details`  WHERE username='$uname' AND password='$pswrd'";
+        
         $result = mysqli_query($con, $sql);
-
-
+        // mysqli_query() function performs a query against a database.to perform data retrival
+        // returns the number of rows in a result set.
         if (mysqli_num_rows($result) > 0) {
             $_SESSION['username'] = $uname;
             header("Location: home.php");

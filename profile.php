@@ -5,9 +5,10 @@ session_start();
 $uid = $_SESSION['adminID'];
 $sql = "SELECT * FROM `admin` WHERE adminID=$uid";
 $result = mysqli_query($con, $sql);
+// mysqli_query() function performs a query against a database.to perform data retrival
+if (mysqli_num_rows($result) == 1) { //  // Return the number of rows in result set
 
-if (mysqli_num_rows($result) == 1) {
-    $row = mysqli_fetch_assoc($result);
+    $row = mysqli_fetch_assoc($result);//mysqli_fetch_assoc() function fetches a result row as an associative array.
 } else {
     echo '<script> window.alert("Error receiving data!");</script>';
 }
